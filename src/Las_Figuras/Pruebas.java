@@ -12,6 +12,7 @@ public class Pruebas {
               //Practicas Clase POO   
     public static void main(String[] args) {
         //se crea el primer para la clase Rectangulo
+        DecimalFormat Formato = new DecimalFormat("0.00");
         Rectangulo r1= new Rectangulo(2.0,4.0);
         
         System.out.println("RECTANGULOS");
@@ -28,7 +29,7 @@ public class Pruebas {
         System.out.println("CIRCULOS");
         System.out.println("Perimetros");
         //se muestra el perimetro del circulo 
-        System.out.println("El perimetro del circulo es: "+c1.getRadio()+":"+c1.calcularPerimetro());
+        System.out.println("El perimetro del circulo es: "+c1.getRadio()+":"+Formato.format(c1.calcularPerimetro()));
         
         //se muestra el area del circulo 
         System.out.println("El area del circulo es: "+c1.getRadio()+":"+c1.calcularArea());
