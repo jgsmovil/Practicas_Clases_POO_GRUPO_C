@@ -9,12 +9,11 @@ package Las_Figuras;
  */
 public class Pruebas {
 
-    /**
-     * @param args the command line arguments
-     */
+              //Practicas Clase POO   
     public static void main(String[] args) {
         //se crea el primer para la clase Rectangulo
         Rectangulo r1= new Rectangulo(2.0,4.0);
+        
         System.out.println("RECTANGULOS");
         System.out.println("Perimetros");
         //Se calcula el perimetro del rectangulo
