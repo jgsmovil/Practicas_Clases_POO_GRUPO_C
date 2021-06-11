@@ -10,13 +10,11 @@ package Interfaces;
 
 public class Prestamo implements Autor,Libro,Editorial {
     
-   @Override
    public void titulo(){
-       System.out.println("Eclipse");
+       System.out.println("El principito");
    } 
-   @Override
    public void nombre(){
-       System.out.println("Stephenie Meye");
+       System.out.println("Antonio D Saint");
                
    }
     

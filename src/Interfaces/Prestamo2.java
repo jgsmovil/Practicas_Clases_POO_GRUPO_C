@@ -10,13 +10,17 @@ package Interfaces;
  * @author Yoselin
  */
 public class Prestamo2 extends Prestamo{
-       public void titulo(){
-       System.out.println("El principito");
+      
+    
+   @Override
+   public void titulo(){
+       System.out.println("Eclipse");
    } 
-       @Override
+   @Override
    public void nombre(){
-       System.out.println("Antonio D Saint");
+       System.out.println("Stephenie Meyer");
                
    }
+    
     
 }
