@@ -19,6 +19,10 @@ public class Control {
          categoria_1.titulo();
          categoria_1.nombre();
          
+           Prestamo2 categoria_2 = new Prestamo2();
+         categoria_2.titulo();
+         categoria_2.nombre();
+         
     }
     
 }
